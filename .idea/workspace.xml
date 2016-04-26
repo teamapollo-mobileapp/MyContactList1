@@ -28,27 +28,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/mycontactlist1/ContactListActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_10e4d6a1c2e219955b098dcc24fed76ee60b9ca7.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_10e4d6a1c2e219955b098dcc24fed76ee60b9ca7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ae1582e8d19ddb41c9027579c36115c916fa8d45.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ae1582e8d19ddb41c9027579c36115c916fa8d45.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_6502b3b6e36779f8ae0eeae1f074ca57411c8040.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_6502b3b6e36779f8ae0eeae1f074ca57411c8040.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_71aa3b6b80bf6f2cfe2454517221fdfb3ff15e6e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_71aa3b6b80bf6f2cfe2454517221fdfb3ff15e6e.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_4ac22763d964dce54165ac598fcc78b8c468150c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_4ac22763d964dce54165ac598fcc78b8c468150c.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_566994ceaa76c9b3b95eec333638c10aa92b0c20.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_566994ceaa76c9b3b95eec333638c10aa92b0c20.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_45c97b9329d1374eb0f12d98b1eba0ec63967e73.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_45c97b9329d1374eb0f12d98b1eba0ec63967e73.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyContactList1.iws" />
@@ -99,21 +95,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactListActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactListActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.4473684">
+              <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+              <folding>
+                <element signature="e#2128#2301#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2449#2723#0" expanded="true" />
+                <element signature="e#2722#2723#0" expanded="true" />
+                <element signature="e#3013#3247#0" expanded="true" />
+                <element signature="e#3246#3247#0" expanded="true" />
+                <element signature="e#3403#3648#0" expanded="true" />
+                <element signature="e#3647#3648#0" expanded="true" />
+                <element signature="e#4302#4588#0" expanded="true" />
+                <element signature="e#4587#4588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50755286">
-              <caret line="431" column="55" selection-start-line="431" selection-start-column="55" selection-end-line="431" selection-end-column="55" />
+            <state vertical-scroll-proportion="-10.24138">
+              <caret line="291" column="4" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1757,6 +1764,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactMapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v23/test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java" />
       </list>
     </option>
   </component>
@@ -2026,14 +2034,14 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.4908953" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.48473284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.5152672" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.5244275" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.48473284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.47557253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2042,6 +2050,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.49694657" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2054,7 +2063,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2113,7 +2121,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#2128#2301#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2449#2723#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#3013#3247#0" expanded="true" />
+            <element signature="e#3246#3247#0" expanded="true" />
+            <element signature="e#3403#3648#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#4302#4588#0" expanded="true" />
+            <element signature="e#4587#4588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2239,24 +2258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactMapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2292,12 +2293,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactMapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50755286">
-          <caret line="431" column="55" selection-start-line="431" selection-start-column="55" selection-end-line="431" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.24138">
+          <caret line="291" column="4" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mycontactlist1/ContactListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4473684">
+          <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+          <folding>
+            <element signature="e#2128#2301#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2449#2723#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#3013#3247#0" expanded="true" />
+            <element signature="e#3246#3247#0" expanded="true" />
+            <element signature="e#3403#3648#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#4302#4588#0" expanded="true" />
+            <element signature="e#4587#4588#0" expanded="true" />
           </folding>
         </state>
       </provider>

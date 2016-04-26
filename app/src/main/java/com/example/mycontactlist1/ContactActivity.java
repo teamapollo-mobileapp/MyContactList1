@@ -27,7 +27,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
-import android.telephony.SmsMessage;
 
 public class ContactActivity extends FragmentActivity implements SaveDateListener {
 	
@@ -429,8 +428,8 @@ public class ContactActivity extends FragmentActivity implements SaveDateListene
 	}
 	
 	private void callContact(String phoneNumber) {
-	    Intent intent = new Intent(Intent.ACTION_SENDTO);
-	    intent.setData(Uri.parse("smsto:" + phoneNumber));
+	    Intent intent = new Intent(Intent.ACTION_CALL);
+	    intent.setData(Uri.parse("tel:" + phoneNumber));
 	    startActivity(intent);
 	}
 

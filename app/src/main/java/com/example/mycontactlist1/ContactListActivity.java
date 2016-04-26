@@ -2,6 +2,7 @@ package com.example.mycontactlist1;
 
 import java.util.ArrayList;
 
+import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.app.ListActivity;
@@ -14,6 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -27,13 +29,14 @@ public class ContactListActivity extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contact_list);
-		
+		clicklistener();
+//		initMessageFunction();
 		initListButton();
 		initMapButton();
 		initSettingsButton();
 		initDeleteButton();
 		initAddContactButton();
-		
+
 		BroadcastReceiver batteryReceiver = new BroadcastReceiver() {
 			   @Override
 			   public void onReceive(Context context, Intent intent) {
@@ -59,6 +62,98 @@ public class ContactListActivity extends ListActivity {
 	@Override
 	public void onResume() {
 		super.onResume();
+		initMessageFunction();
+
+	}
+
+	private void initAddContactButton() {
+		Button newContact = (Button) findViewById(R.id.buttonAdd);
+		newContact.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(ContactListActivity.this, ContactActivity.class);
+				startActivity(intent);
+			}
+		});
+	}
+
+	private void initDeleteButton() {
+		final Button deleteButton = (Button) findViewById(R.id.buttonDelete);
+		deleteButton.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				if (isDeleting) {
+					deleteButton.setText("Delete");
+					isDeleting = false;
+
+					adapter.notifyDataSetChanged();
+				} else {
+					deleteButton.setText("Done Deleting");
+					isDeleting = true;
+				}
+			}
+		});
+	}
+
+	
+	private void initListButton() {
+        ImageButton list = (ImageButton) findViewById(R.id.imageButtonList);
+		list.setEnabled(false);
+	}
+	
+	private void initMapButton() {
+        ImageButton list = (ImageButton) findViewById(R.id.imageButtonMap);
+        list.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(ContactListActivity.this, ContactMapActivity.class);
+				intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(intent);
+			}
+		});
+	}
+	private void initSettingsButton() {
+        ImageButton list = (ImageButton) findViewById(R.id.imageButtonSettings);
+        list.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				Intent intent = new Intent(ContactListActivity.this, ContactSettingsActivity.class);
+				intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(intent);
+			}
+        });
+	}
+	private void initMessageFunction(){
+
+		String sortBy = getSharedPreferences("MyContactListPreferences", Context.MODE_PRIVATE).getString("sortfield", "contactname");
+		String sortOrder = getSharedPreferences("MyContactListPreferences", Context.MODE_PRIVATE).getString("sortorder", "ASC");
+
+		ContactDataSource ds = new ContactDataSource(this);
+		ds.open();
+		final ArrayList<Contact> contacts = ds.getContacts(sortBy,sortOrder);
+		ds.close();
+
+		if (contacts.size() > 0) {
+			if (clicklistener()){
+			adapter = new ContactAdapter(this, contacts);
+			setListAdapter(adapter);
+			ListView listView = getListView();
+			listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+				@Override
+
+				public void onItemClick(AdapterView<?> parent, View itemClicked, int position, long id) {
+					Contact currentContact = contacts.get(position);
+					callMessage(currentContact.getPhoneNumber());
+					//return false;}
+				}
+			});	}
+		/*else {
+			Intent intent = new Intent(ContactListActivity.this, ContactActivity.class);
+			startActivity(intent);
+		}*/
+		}}
+	private void callMessage(String phoneNumber) {
+		Intent intent = new Intent(Intent.ACTION_SENDTO);
+		intent.setData(Uri.parse("smsto:" + phoneNumber));
+		startActivity(intent);
+	}
+private void clicklistener(){
 		String sortBy = getSharedPreferences("MyContactListPreferences", Context.MODE_PRIVATE).getString("sortfield", "contactname");
 		String sortOrder = getSharedPreferences("MyContactListPreferences", Context.MODE_PRIVATE).getString("sortorder", "ASC");
 
@@ -66,89 +161,36 @@ public class ContactListActivity extends ListActivity {
 		ds.open();
 		final ArrayList<Contact> contacts = ds.getContacts(sortBy, sortOrder);
 		ds.close();
-		
+	boolean value=true;
 		if (contacts.size() > 0) {
 
 			adapter = new ContactAdapter(this, contacts);
 			setListAdapter(adapter);
 			ListView listView = getListView();
-			listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+		//	listView.setLongClickable(true);
+			listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
 
+				final boolean value=false;
 				@Override
-				public void onItemClick(AdapterView<?> parent, View itemClicked,
-						int position, long id) {
+				public boolean onItemLongClick(AdapterView<?> parent, View itemClicked,
+											   int position, long id) {
+
 					Contact selectedContact = contacts.get(position);
 					if (isDeleting) {
 						adapter.showDelete(position, itemClicked, ContactListActivity.this, selectedContact);
-					}
-					else {
+					} else {
 						Intent intent = new Intent(ContactListActivity.this, ContactActivity.class);
 						intent.putExtra("contactid", selectedContact.getContactID());
 						startActivity(intent);
 					}
+					return true;
 				}
 			});
-		}
-		else {
+
+			}
+
+		/*else {
 			Intent intent = new Intent(ContactListActivity.this, ContactActivity.class);
 			startActivity(intent);
-		}
-	}
-	
-	private void initAddContactButton() {
-		Button newContact = (Button) findViewById(R.id.buttonAdd);
-		newContact.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactListActivity.this, ContactActivity.class);
-    			startActivity(intent);
-            }
-        });
-	}
-
-	private void initDeleteButton() {
-		final Button deleteButton = (Button) findViewById(R.id.buttonDelete);
-		deleteButton.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-				if (isDeleting) {
-					deleteButton.setText("Delete");
-					isDeleting = false;
-
-				    adapter.notifyDataSetChanged();
-				}
-				else {
-					deleteButton.setText("Done Deleting");
-					isDeleting = true;
-				}
-            }
-        });
-	}
-
-	
-	private void initListButton() {
-        ImageButton list = (ImageButton) findViewById(R.id.imageButtonList);
-        list.setEnabled(false);
-	}
-	
-	private void initMapButton() {
-        ImageButton list = (ImageButton) findViewById(R.id.imageButtonMap);
-        list.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactListActivity.this, ContactMapActivity.class);
-    			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent);
-            }
-        });
-	}
-	private void initSettingsButton() {
-        ImageButton list = (ImageButton) findViewById(R.id.imageButtonSettings);
-        list.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactListActivity.this, ContactSettingsActivity.class);
-    			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent);
-            }
-        });
-	}
-
-
+		}*/}
 }
