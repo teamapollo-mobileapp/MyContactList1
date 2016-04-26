@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_71aa3b6b80bf6f2cfe2454517221fdfb3ff15e6e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Barca\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_45c97b9329d1374eb0f12d98b1eba0ec63967e73.jar" />
+    </item>
+    <item
+        jar="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_6502b3b6e36779f8ae0eeae1f074ca57411c8040.jar" />
+    </item>
+    <item
+        jar="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_10e4d6a1c2e219955b098dcc24fed76ee60b9ca7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_566994ceaa76c9b3b95eec333638c10aa92b0c20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_ae1582e8d19ddb41c9027579c36115c916fa8d45.jar" />
+    </item>
+
+</items>

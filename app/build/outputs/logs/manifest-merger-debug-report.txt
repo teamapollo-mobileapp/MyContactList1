@@ -1,0 +1,142 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml
+permission#com.example.mycontactlist.permission.MAPS_RECEIVE
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:10:1-12:43
+	android:protectionLevel
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:12:5-40
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:11:5-69
+uses-permission#com.example.mycontactlist.permission.MAPS_RECEIVE
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:14:4-15:74
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:15:7-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:16:4-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:16:21-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:17:4-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:17:21-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:18:4-80
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:18:21-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:19:4-80
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:19:21-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:20:4-78
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:20:21-75
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:21:4-22:82
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:22:6-79
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:23:4-68
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:23:21-65
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:24:4-64
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:24:21-61
+application
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:27:5-56:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:30:9-41
+	android:allowBackup
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:29:9-45
+	android:theme
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:31:9-40
+activity#com.example.mycontactlist1.ContactActivity
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:33:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:38:27-74
+activity#com.example.mycontactlist1.ContactListActivity
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:43:13-64
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:42:13-48
+activity#com.example.mycontactlist1.ContactMapActivity
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:46:13-47
+activity#com.example.mycontactlist1.ContactSettingsActivity
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:51:13-68
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:50:13-52
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:55:13-68
+	android:name
+		ADDED from C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\src\main\AndroidManifest.xml:54:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:24:8-31
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Barca\AndroidStudioProjects1\MyContactList1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58

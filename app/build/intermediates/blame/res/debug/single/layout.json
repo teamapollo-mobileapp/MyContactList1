@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dataselect.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\dataselect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_list.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\activity_contact_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_settings.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\activity_contact_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_map.xml",
+        "source": "C:\\Users\\Barca\\AndroidStudioProjects1\\MyContactList1\\app\\src\\main\\res\\layout\\activity_contact_map.xml"
+    }
+]
